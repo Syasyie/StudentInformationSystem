@@ -29,5 +29,14 @@ public class StudentInformationSystem {
         
         //Display total
         System.out.println("Total Marks: " + total);
+        
+        //Display message based on total
+        if (total >= 80) {
+            System.out.println("Excellent");
+        } else if (total >= 50) {
+            System.out.println("Good");
+        } else {
+            System.out.println("Needs Improvement");
+        }
     }
 }
