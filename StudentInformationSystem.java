@@ -17,6 +17,7 @@ public class StudentInformationSystem {
         //Name and ID
         System.out.println("Name: Nur Syahidah Binti Shamsul Anwar");
         System.out.println("Student ID: S87282");
+        System.out.println("Programme: Computer Science");
         
         //store marks
         int mark1 = 45;
